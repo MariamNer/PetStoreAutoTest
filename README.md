@@ -6,3 +6,7 @@ MindMap приложен в файлике https://github.com/MariamNer/PetStore
 Из основных проверок не успела реализовать проверки загрузки файлов и авторизацию (она не работает)
 
 Работать должно под java 11, используется Junit5
+
+Запускала из IDEA со следующей конфигурацией
+![image](https://github.com/user-attachments/assets/620c5f36-ab2a-41c3-8f35-18f4c4b02acc)
+
