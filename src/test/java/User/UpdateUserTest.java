@@ -7,15 +7,13 @@ import io.restassured.response.Response;
 import org.json.JSONObject;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.ValueSource;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
 
 
-public class UpdateUser {
+public class UpdateUserTest {
 
     @BeforeAll
     public static void setUP() {

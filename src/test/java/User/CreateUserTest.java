@@ -10,7 +10,7 @@ import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.notNullValue;
 
 
-public class CreateUser {
+public class CreateUserTest {
 
     @BeforeAll
     public static void setUP() {

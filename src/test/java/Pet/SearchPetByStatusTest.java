@@ -14,7 +14,7 @@ import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.given;
 
-public class SearchPetByStatus {
+public class SearchPetByStatusTest {
 
     @BeforeAll
     public static void setUP() {

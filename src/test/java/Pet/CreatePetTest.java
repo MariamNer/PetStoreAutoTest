@@ -13,7 +13,7 @@ import org.junit.jupiter.params.provider.ValueSource;
 
 import static io.restassured.RestAssured.given;
 
-public class CreatePet {
+public class CreatePetTest {
 
     @BeforeAll
     public static void setUP() {

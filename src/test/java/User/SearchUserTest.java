@@ -3,17 +3,13 @@ package User;
 import Api.UserApi;
 import dto.User;
 import io.restassured.RestAssured;
-import org.hamcrest.Matcher;
 import org.hamcrest.Matchers;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.given;
-import static io.restassured.RestAssured.sessionId;
-import static org.hamcrest.Matchers.equalTo;
 
-public class SearchUser {
+public class SearchUserTest {
 
     @BeforeAll
     public static void setUP() {

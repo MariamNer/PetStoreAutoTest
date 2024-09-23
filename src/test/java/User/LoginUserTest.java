@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Assertions;
 
 import static io.restassured.RestAssured.given;
 
-public class LoginUser {
+public class LoginUserTest {
 
     @BeforeAll
     public static void setUP() {

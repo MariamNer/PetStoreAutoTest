@@ -1,6 +1,5 @@
 package User;
 
-import Api.UserApi;
 import dto.User;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
@@ -12,7 +11,7 @@ import org.junit.jupiter.api.Test;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
-public class CreateWithArray {
+public class CreateWithArrayTest {
 
     @BeforeAll
     public static void setUP() {

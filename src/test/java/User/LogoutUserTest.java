@@ -3,13 +3,12 @@ package User;
 import Api.UserApi;
 import dto.User;
 import io.restassured.RestAssured;
-import io.restassured.response.Response;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.given;
 
-public class LogoutUser {
+public class LogoutUserTest {
 
     @BeforeAll
     public static void setUP() {
